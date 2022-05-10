@@ -1,7 +1,7 @@
 <h1>Hello this is db:cinematographer website</h1>
-<%# <%= video_tag "pexels-beach.mp4" %>
-
-<video width="320" height="240" controls>
-  <source src="../videos/pexels-beach.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<video playsinline autoplay muted loop>
+  <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1652175994/pexels-beach_p2ltot.mp4">
 </video>
+
+
+<%# <%= cl_video_tag("pexels-beach_p2ltot.mp4", preload: true, loop: true, autoplay: true, controls: true, poster: false) %>
