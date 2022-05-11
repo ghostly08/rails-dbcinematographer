@@ -2,14 +2,14 @@
   width: 100vw;
   height: 80vh;
   position: absolute;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
+  background-size: cover;
   object-fit: cover;
   top: 50px;
   z-index: -2;
-
-
 }
+
 
 #title {
   color: whitesmoke;

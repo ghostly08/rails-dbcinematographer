@@ -7,5 +7,11 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "channels"
 
+
 Rails.start()
 Turbolinks.start()
+
+// JS files
+require("packs/title.js")
+
+console.log("hello!!!")
