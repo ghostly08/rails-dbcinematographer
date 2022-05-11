@@ -7,4 +7,17 @@
   object-fit: cover;
   top: 50px;
   z-index: -2;
- }
+
+
+}
+
+#title {
+  color: whitesmoke;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 190px;
+  width: 100%;
+  text-shadow: 2px 3px 2px #201f1f;
+}
