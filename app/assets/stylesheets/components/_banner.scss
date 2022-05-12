@@ -41,7 +41,17 @@
 // }
 
 .video-links {
-  display: inline;
-  width: 100%;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 28%;
+  position: absolute;
+  bottom: 31%;
+  right: 28%;
+
+  a {
+    color: whitesmoke;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #201f1f;
+
+  }
 }
