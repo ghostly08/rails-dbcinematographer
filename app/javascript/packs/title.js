@@ -1,6 +1,6 @@
 
 function loading() {
-  const title = document.querySelector('.none-title');
+  const title = document.getElementById('title');
   setTimeout(() => {
     title.style.visibility = "visible";
     //title.style.transition = "2s";
