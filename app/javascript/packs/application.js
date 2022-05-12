@@ -14,4 +14,5 @@ Turbolinks.start()
 // JS files
 require("packs/title.js")
 
-console.log("hello!!!")
+import { loading } from './title.js'
+loading();
