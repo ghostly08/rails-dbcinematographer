@@ -11,8 +11,10 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 
-// JS files
+// import title.js
 require("packs/title.js")
 
 import { loading } from './title.js'
 loading();
+
+
