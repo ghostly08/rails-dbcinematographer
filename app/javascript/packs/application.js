@@ -11,6 +11,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 
+// Import External Libreries
+import "@fortawesome/fontawesome-free/js/all";
+
 // import title.js
 require("packs/title.js")
 
