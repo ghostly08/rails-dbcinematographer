@@ -17,4 +17,8 @@ require("packs/title.js")
 import { loading } from './title.js'
 loading();
 
+// Import banner-links.js
+require("packs/banner-links.js")
 
+import { loadingLinks } from "./banner-links.js"
+loadingLinks();
