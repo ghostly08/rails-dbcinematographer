@@ -15,10 +15,10 @@ Turbolinks.start()
 import "@fortawesome/fontawesome-free/js/all";
 
 // import title.js
-require("packs/title.js")
+// require("packs/title.js")
 
-import { loading } from './title.js'
-loading();
+// import { loading } from './title.js'
+// loading();
 
 // Import banner-links.js
 require("packs/banner-links.js")
