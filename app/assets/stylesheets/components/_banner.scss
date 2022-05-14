@@ -41,7 +41,7 @@
   opacity: 0.0;
   animation-name: video-links;
   animation-duration: 3s;
-  animation-delay: 8s;
+  animation-delay: 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   transition-timing-function: ease-out;
@@ -63,4 +63,32 @@
   font-size: 20px;
   color: burlywood;
   padding: 0 5px;
+}
+
+#reel-popup {
+
+  display: none;
+
+  .popup-overlay {
+    position: fixed; /* Sit on top of the page content */
+    // display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  #reel-video {
+    position: relative;
+    top: 10%;
+    left: 17%;
+    width: 66%;
+    z-index: 3;
+  }
+
 }
