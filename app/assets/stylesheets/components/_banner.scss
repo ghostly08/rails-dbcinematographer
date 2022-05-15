@@ -45,6 +45,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   transition-timing-function: ease-out;
+  cursor: pointer;
 
 
   @keyframes video-links {
@@ -52,7 +53,8 @@
     to {opacity: 1;}
   }
 
-  a {
+  a, p {
+    display: inline;
     color: whitesmoke;
     font-size: 18px;
     text-shadow: 1px 1px 2px #201f1f;
@@ -67,7 +69,7 @@
 
 #reel-popup {
 
-  display: none;
+  visibility: hidden;
 
   .popup-overlay {
     position: fixed; /* Sit on top of the page content */
@@ -80,7 +82,6 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.9); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
   }
 
   #reel-video {
@@ -89,6 +90,13 @@
     left: 17%;
     width: 66%;
     z-index: 3;
-  }
 
+  }
 }
+
+
+// #reel-popup .show {
+//   visibility: visible;
+//   -webkit-animation: fadeIn 1s;
+//   animation: fadeIn 1s;
+// }

@@ -25,3 +25,12 @@ require("packs/banner-links.js")
 
 import { loadingLinks } from "./banner-links.js"
 loadingLinks();
+
+// Import reel-popup.js
+require("packs/reel-popup.js")
+
+import { reelPopUp } from "./reel-popup.js"
+reelPopUp();
+
+// import { closePopUp } from "./reel-popup.js"
+// closePopUp();

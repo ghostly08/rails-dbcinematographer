@@ -6,16 +6,18 @@
 <h1 id="title">Director & Cinematographer</h1>
 
 <div class="video-links">
-  <a href="url"><i class="fa-solid fa-play"></i>Watch full reel</a>
+  <div class="video-popup" onclick="openPopUp()">
+    <p><i class="fa-solid fa-play"></i>Watch full reel</p>
+  </div>
   <a href="https://vimeo.com/user62918325" target="_blank"><i class="fa-solid fa-play"></i>Watch videos on Vimeo</a>
 </div>
 
-<div id="reel-popup">
-  <video id="reel-video" playsinline controls>
-  <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1652206248/export_web_ALTA_lwvjp5.mp4">
-</video>
-  <div class="popup-overlay"></div>
-</div>
+  <div id="reel-popup">
+    <video id="reel-video" playsinline controls>
+      <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1652206248/export_web_ALTA_lwvjp5.mp4">
+    </video>
+    <div class="popup-overlay"></div>
+  </div>
 
 
 <%# <%= cl_video_tag("pexels-beach_p2ltot.mp4", preload: true, loop: true, autoplay: true, controls: true, poster: false) %>
