@@ -16,3 +16,4 @@ import "@fortawesome/fontawesome-free/js/all";
 
 // Import components
 import { openPopup } from "./banner.js"
+import { closePopup } from "./banner.js"

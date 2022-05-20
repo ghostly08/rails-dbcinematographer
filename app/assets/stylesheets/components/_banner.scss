@@ -95,7 +95,7 @@
 .fa-xmark {
   color: #898686;;
   font-size: 40px;
-  position: relative;
+  position: absolute;
   top: 22%;
   left: 79%;
 }
@@ -106,4 +106,8 @@
 
 .popup.open {
   visibility: visible;
+}
+
+.popup.close {
+  visibility: hidden;
 }
