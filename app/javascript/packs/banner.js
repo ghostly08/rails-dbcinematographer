@@ -18,8 +18,8 @@ export { openPopup }
 // ::::::: Close Pop Up ::::::: //
 
 function closePopup() {
-  popup.classList.add('close')
-  popup.classList.remove('open')
+  popup.classList.add('close');
+  popup.classList.remove('open');
 };
 
 closeButton.addEventListener('click', closePopup);
