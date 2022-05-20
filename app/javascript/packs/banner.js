@@ -1,3 +1,6 @@
+
+// :::::::::: Reel Pop Up  :::::::::::: //
+
 const popup = document.querySelector("#reel-popup");
 const popupButton = document.querySelector("#openPopupButton");
 

@@ -14,25 +14,5 @@ Turbolinks.start()
 // Import External Libreries
 import "@fortawesome/fontawesome-free/js/all";
 
-// import title.js
-// require("packs/title.js")
-
-// import { loading } from './title.js'
-// loading();
-
-// Import banner-links.js
-// require("packs/banner-links.js")
-
-// import { loadingLinks } from "./banner-links.js"
-// loadingLinks();
-
-import { openPopup } from "./reel-popup.js"
-
-
-
-
-// popUp.addEventListener("click", reelPopUp);
-
-
-// import { closePopUp } from "./reel-popup.js"
-// closePopUp();
+// Import components
+import { openPopup } from "./banner.js"
