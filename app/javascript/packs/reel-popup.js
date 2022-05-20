@@ -1,29 +1,10 @@
-// popUp.style.visibility = "hidden";
-// console.log(popUp.style.visibility);
+const popup = document.querySelector("#reel-popup");
+const popupButton = document.querySelector("#openPopupButton");
 
-function reelPopUp() {
-  const popUp = document.getElementById("reel-popup");
-  popUp.style.visibility = "visible";
-  console.log(popUp.style.visibility);
+function openPopup() {
+  popup.classList.add('open')
 };
 
+popupButton.addEventListener('click', openPopup)
 
-// popUp.addEventListener("toggle", reelPopUp());
-
-export { reelPopUp }
-// export { closePopUp }
-
-
-
-
-
-
-
-
-// function reelPopUp() {
-//     const popUp = document.getElementById('reel-popup');
-//     setTimeout(() => {
-//       popUp.style.visibility = "visible";
-//       //title.style.transition = "2s";
-//     }, 1000);
-//   }
+export { openPopup }

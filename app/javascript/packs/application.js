@@ -21,16 +21,18 @@ import "@fortawesome/fontawesome-free/js/all";
 // loading();
 
 // Import banner-links.js
-require("packs/banner-links.js")
+// require("packs/banner-links.js")
 
-import { loadingLinks } from "./banner-links.js"
-loadingLinks();
+// import { loadingLinks } from "./banner-links.js"
+// loadingLinks();
 
-// Import reel-popup.js
-require("packs/reel-popup.js")
+import { openPopup } from "./reel-popup.js"
 
-import { reelPopUp } from "./reel-popup.js"
-reelPopUp();
+
+
+
+// popUp.addEventListener("click", reelPopUp);
+
 
 // import { closePopUp } from "./reel-popup.js"
 // closePopUp();

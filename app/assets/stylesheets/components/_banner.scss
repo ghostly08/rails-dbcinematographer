@@ -38,12 +38,12 @@
   position: absolute;
   bottom: 31%;
   right: 28%;
-  opacity: 0.0;
+  // opacity: 0.0;
   animation-name: video-links;
-  animation-duration: 3s;
-  animation-delay: 6s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  // animation-duration: 3s;
+  // animation-delay: 6s;
+  // animation-iteration-count: 1;
+  // animation-fill-mode: forwards;
   transition-timing-function: ease-out;
   cursor: pointer;
 
@@ -68,9 +68,6 @@
 }
 
 #reel-popup {
-
-  visibility: hidden;
-
   .popup-overlay {
     position: fixed; /* Sit on top of the page content */
     // display: none; /* Hidden by default */
@@ -94,9 +91,10 @@
   }
 }
 
+.popup {
+  visibility: hidden;
+}
 
-// #reel-popup .show {
-//   visibility: visible;
-//   -webkit-animation: fadeIn 1s;
-//   animation: fadeIn 1s;
-// }
+.popup.open {
+  visibility: visible;
+}
