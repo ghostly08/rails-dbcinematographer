@@ -4,21 +4,24 @@
   position: absolute;
   background-size: cover;
   object-fit: cover;
-  top: 50px;
+  top: 0;
   z-index: -2;
 }
 
 #title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   color: whitesmoke;
-  font-size: 50px;
-  text-align: center;
+  font-size: 60px;
+  text-align: left;
   position: relative;
-  top: 190px;
-  width: 100%;
+  top: 450px;
+  margin-left: 5%;
+  width: 30%;
   text-shadow: 2px 3px 2px #201f1f;
   opacity: 0.0;
   animation-name: title;
-  animation-duration: 7s;
+  animation-duration: 3s;
   animation-delay: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -32,18 +35,20 @@
 
 
 .video-links {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   display: flex;
   justify-content: space-around;
   width: 30%;
   position: absolute;
-  bottom: 31%;
-  right: 28%;
-  // opacity: 0.0;
+  bottom: 21%;
+  right: 10%;
+  opacity: 0.0;
   animation-name: video-links;
-  // animation-duration: 3s;
-  // animation-delay: 6s;
-  // animation-iteration-count: 1;
-  // animation-fill-mode: forwards;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   transition-timing-function: ease-out;
   cursor: pointer;
 
