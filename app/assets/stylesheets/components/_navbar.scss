@@ -2,11 +2,11 @@
   font-family: 'Manrope', sans-serif;
   font-weight: 200;
   position: absolute;
-  top: 30px;
+  top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 98%;
   padding: 0 5%;
   margin: 0 auto;
 
@@ -17,10 +17,14 @@
     color: whitesmoke;
   }
 
-  h3 {
+  h3, h4 {
     font-size: 20px;
     font-weight: 200;
     color: whitesmoke;
+  }
+
+  h4 {
+    font-size: 15px;
   }
 
 }
