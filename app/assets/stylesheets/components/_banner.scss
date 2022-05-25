@@ -8,17 +8,16 @@
   z-index: -2;
 }
 
-#title {
+.title {
   font-family: 'Manrope', sans-serif;
   font-weight: 300;
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 44px;
   text-align: left;
   position: relative;
-  top: 450px;
-  margin-left: 5%;
+  top: 354px;
+  margin: 5%;
   width: 30%;
-  // text-shadow: 2px 3px 2px #201f1f;
   opacity: 0.0;
   animation-name: title;
   animation-duration: 3s;
@@ -26,6 +25,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   transition-timing-function: ease-out;
+
 
   @keyframes title {
     from {opacity: 0.0;}
@@ -39,9 +39,9 @@
   font-weight: 100;
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 80%;
   position: absolute;
-  bottom: 16%;
+  bottom: 24%;
   right: 7%;
   opacity: 0.0;
   animation-name: video-links;
@@ -132,4 +132,19 @@
 
 .popup.close {
   visibility: hidden;
+}
+
+// :::::::::::: Media Queries :::::::::::::::::: //
+
+@media  (min-width: 992px) {
+  .title {
+    font-size: 50px;
+    width: 30%;
+    top: 450px;
+  }
+
+  .video-links  {
+    width: 30%;
+    bottom: 16%;
+  }
 }
