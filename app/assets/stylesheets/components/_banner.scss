@@ -73,36 +73,53 @@
 }
 
 #reel-popup {
+  position: fixed; /* Sit on top of the page content */
+  // display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  display: flex;
+  place-items: center;
+
   .popup-overlay {
-    position: fixed; /* Sit on top of the page content */
-    // display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    max-width: 66%;
+
+    @media (max-width: 500px) {
+      max-width: 100%;
+    }
   }
 
   #reel-video {
     position: relative;
-    top: 10%;
-    left: 17%;
-    width: 66%;
+    width: 100%;
     z-index: 3;
-
   }
 
 }
 
+.popup-close-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: unset;
+  cursor: pointer;
+  z-index: 4;
+}
+
 .fa-xmark {
   color: #898686;;
-  font-size: 40px;
-  position: absolute;
-  top: 22%;
-  left: 79%;
+  font-size: 20px;
 }
 
 .popup {

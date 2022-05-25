@@ -25,3 +25,8 @@
 
  // Your CSS partials
 @import "components/index";
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
