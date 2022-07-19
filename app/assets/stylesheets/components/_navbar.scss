@@ -14,18 +14,20 @@
     display: flex;
     justify-content: space-around;
     width: 20%;
-    color: whitesmoke;
+    // color: black;
+    // background-color: whitesmoke;
   }
 
-  h3, h4 {
+  h3 {
     font-size: 26px;
     font-weight: 200;
-    color: whitesmoke;
+    color: black;
   }
 
   h4 {
-    display: none;
-    font-size: 15px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
   }
 
 }
