@@ -1,0 +1,15 @@
+
+.cards-container {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 522px;
+  width: 96%;
+  height: 193px;
+  border: solid red 1px;
+  margin-left: 2%;
+}
+
+.card-item {
+  width: 100%;
+}
