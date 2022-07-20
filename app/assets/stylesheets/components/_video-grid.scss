@@ -1,0 +1,15 @@
+
+.grid-container {
+  display: flex;
+  // grid-template-columns: auto auto auto;
+  position: absolute;
+  top: 522px;
+  width: 96%;
+  height: 193px;
+  background: yellow;
+  margin-left: 2%;
+}
+
+.grid-item {
+  width: 100%;
+}
