@@ -1,3 +1,7 @@
+.banner.banner-overlay {
+  margin-bottom: 40px;
+}
+
 .banner {
   width: 103vw;
   height: 103vh;
@@ -6,6 +10,7 @@
   object-fit: cover;
   top: 0px;
   z-index: -2;
+  margin-bottom: 30px;
 }
 
 .title {

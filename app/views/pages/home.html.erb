@@ -1,46 +1,50 @@
 
-<%# :::::::::: Banner :::::::::::: %>
+<div class="main-container">
 
-<video class="banner banner-overlay" playsinline autoplay muted loop>
-  <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1652206248/export_web_ALTA_lwvjp5.mp4">
-</video>
+  <%# :::::::::: Banner :::::::::::: %>
+  <div class="banner-wrapper">
+    <video class="banner banner-overlay" playsinline autoplay muted loop>
+      <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1652206248/export_web_ALTA_lwvjp5.mp4">
+    </video>
 
-<h1 id="title" class="title">Director & Cinematographer</h1>
+    <h1 id="title" class="title">Director & Cinematographer</h1>
 
-<div class="video-links">
-  <div id="openPopupButton">
-    <p><i class="fa-solid fa-play"></i>Watch full reel</p>
+    <div class="video-links">
+      <div id="openPopupButton">
+        <p><i class="fa-solid fa-play"></i>Watch full reel</p>
+      </div>
+      <a href="https://vimeo.com/user62918325" target="_blank"><i class="fa-solid fa-play"></i>Watch videos on Vimeo</a>
+    </div>
+
+      <div id="reel-popup" class="popup">
+        <div class="popup-overlay">
+          <button id="closePopUpButton" class="popup-close-button"><i class="fa-solid fa-xmark"></i></button>
+          <video id="reel-video" playsinline controls>
+            <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1654976010/export_para_web_reel_completo_con_musica_jrh5td.mp4">
+          </video>
+        </div>
+      </div>
   </div>
-  <a href="https://vimeo.com/user62918325" target="_blank"><i class="fa-solid fa-play"></i>Watch videos on Vimeo</a>
-</div>
 
-  <div id="reel-popup" class="popup">
-    <div class="popup-overlay">
-      <button id="closePopUpButton" class="popup-close-button"><i class="fa-solid fa-xmark"></i></button>
-      <video id="reel-video" playsinline controls>
-        <source src="https://res.cloudinary.com/drfxstkte/video/upload/v1654976010/export_para_web_reel_completo_con_musica_jrh5td.mp4">
-      </video>
+
+  <%# :::::::::::: Videos Grid ::::::::::::::::: %>
+
+  <div class="cards-container">
+    <div class="card-item">
+      <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
+    </div>
+
+    <div class="card-item">
+      <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
+    </div>
+
+    <div class="card-item">
+      <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
+    </div>
+
+    <div class="card-item">
+      <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
     </div>
   </div>
 
-
-<%# :::::::::::: Videos Grid ::::::::::::::::: %>
-
-<div class="cards-container">
-  <div class="card-item">
-    <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
-  </div>
-
-  <div class="card-item">
-    <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
-  </div>
-
-  <div class="card-item">
-    <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
-  </div>
-
-  <div class="card-item">
-    <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c"></iframe>
-  </div>
-  
 </div>
