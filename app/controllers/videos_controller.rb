@@ -12,7 +12,7 @@ class VideosController < ApplicationController
     @video = Video.new(video_params)
     @video.save
 
-    redirect_to videos_path(@videos)
+    redirect_to root_path
   end
 
   private
