@@ -29,16 +29,16 @@
 
   <%# :::::::::::: Videos Grid ::::::::::::::::: %>
 
-  <ul>
+  <div class="cards-container">
     <% @videos.each do |video| %>
       <li><%= video.name %>
-          <iframe <%= src="#{video.link}" %> width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="<%= video.link %>" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </li>
     <% end %>
-  </ul>
+  </div>
 
 
-  <div class="cards-container">
+  <%# <div class="cards-container">
     <div class="card-item">
       <iframe src="https://player.vimeo.com/video/357389162?h=939678b41c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -73,10 +73,10 @@
 
     <div class="card-item">
 
-    </div>
+    </div> %>
 
 
 
-  </div>
+  <%# </div> %>
 
 </div>
