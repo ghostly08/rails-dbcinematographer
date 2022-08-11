@@ -3,14 +3,6 @@ class PagesController < ApplicationController
     @videos = Video.all
   end
 
-
-  # def destroy
-  #   @video = Video.find(params[:id])
-  #   @video.destroy
-
-  #   redirect_to root_path(video), status: :see_other
-  # end
-
   # def about
   # end
 
