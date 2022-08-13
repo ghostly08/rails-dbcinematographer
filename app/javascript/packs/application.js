@@ -16,6 +16,8 @@ import "@fortawesome/fontawesome-free/js/all";
 import "bootstrap"
 import "../stylesheets/application"
 
+console.log("helloooooo!")
+
 // Import components
 import { openPopup } from "./banner.js"
 import { closePopup } from "./banner.js"
