@@ -13,6 +13,8 @@ Turbolinks.start()
 
 // Import External Libreries
 import "@fortawesome/fontawesome-free/js/all";
+import "bootstrap"
+import "../stylesheets/application"
 
 // Import components
 import { openPopup } from "./banner.js"
