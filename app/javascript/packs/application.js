@@ -13,8 +13,8 @@ Turbolinks.start()
 
 // Import External Libreries
 import "@fortawesome/fontawesome-free/js/all";
-import "bootstrap"
-import "../stylesheets/application"
+import "bootstrap";
+import "../stylesheets/application";  
 
 console.log("helloooooo!")
 

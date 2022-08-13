@@ -1,9 +1,6 @@
 class VideosController < ApplicationController
-
-  # def index
-  #   @videos = Video.all
-  # end
-
+   #skip_before_action :authenticate_user!, only: :show
+  
   def show
     @video = Video.find(params[:id])
   end
