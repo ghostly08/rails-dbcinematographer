@@ -9,9 +9,24 @@
   margin-top: 30px;
 }
 
-.card-item iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  margin-bottom: 90px;
+.card {
+  display: flex;
+  flex-direction: column;
+
+  // iframe {
+  //   max-width: calc(332.778vh);
+  // }
+
+  .card-text {
+    display: flex;
+    margin-bottom: 35px;
+  }
 }
+
+
+// .card-item iframe {
+//   width: 100%;
+//   height: 100%;
+//   border: none;
+//   margin-bottom: 90px;
+// }
