@@ -29,12 +29,12 @@
 
   <%# :::::::::::: Videos Grid ::::::::::::::::: %>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-center">
+          <% @videos.each do |video| %>
       <div class="col-xs-12 col-sm-6 col-lg-4">
         <div class="card">
-          <% @videos.each do |video| %>
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="<%= video.link %>" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="<%= video.link %>" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
             <div class="card-body">
               <h2><%= video.name %></h2>
               <div class="card-links">
@@ -49,9 +49,9 @@
                 method: :delete,
                 data: { confirm: "Are you sure?" }
             %>
-          <% end %>
         </div>
       </div>
+          <% end %>
     </div>
   </div>
 

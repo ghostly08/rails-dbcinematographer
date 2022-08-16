@@ -15,7 +15,7 @@ Turbolinks.start()
 import "@fortawesome/fontawesome-free/js/all";
 require("jquery")
 // import "bootstrap-sprockets";
-// import "bootstrap";
+import "bootstrap";
 // import "../stylesheets/application";
 
 console.log("hello from applicaton js")
