@@ -36,3 +36,14 @@
     top: 1171px;
   }
 }
+
+@media (min-width: 960px) {
+
+  .banner {
+    height: 48vh;
+  }
+
+  .container-fluid {
+    top: 606px;
+  }
+}
