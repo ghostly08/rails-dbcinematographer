@@ -141,12 +141,16 @@
 
 // :::::::::::: Media Queries :::::::::::::::::: //
 
-@media  (min-width: 992px) {
+@media  (min-width: 960px) {
+
+  .banner {
+    height: 55vh;
+
+  }
   .title {
-    font-size: 65px;
-    font-weight: 500;
-    width: 36%;
-    top: 247px;
+    top: 85px;
+    font-size: 46px;
+    width: 35%;
   }
 
   .video-links  {
