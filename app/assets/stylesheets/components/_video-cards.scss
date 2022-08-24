@@ -26,3 +26,13 @@
     justify-content: space-between;
   }
 }
+
+// ::::::::::: Media Queries ::::::::::: //
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 540px) {
+
+  .container-fluid {
+    top: 1171px;
+  }
+}
