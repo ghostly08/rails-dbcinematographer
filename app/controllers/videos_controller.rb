@@ -35,7 +35,7 @@ class VideosController < ApplicationController
     @video = Video.find(params[:id])
     @video.destroy
 
-    redirect_to root_path(video), status: :see_other
+    redirect_to @video, status: :see_other
   end
 
   private

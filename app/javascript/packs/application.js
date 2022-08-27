@@ -14,6 +14,8 @@ Turbolinks.start()
 // Import External Libreries
 import "@fortawesome/fontawesome-free/js/all";
 require("jquery")
+require ("jquery_ujs")
+
 // import "bootstrap-sprockets";
 import "bootstrap";
 // import "../stylesheets/application";

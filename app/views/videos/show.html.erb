@@ -5,4 +5,4 @@
 <p><%= @video.description %></p>
 
 <%= link_to "Back to List", root_path %>
-<%= link_to 'Delete', root_path(@video), method: :delete %>
+<%= link_to 'Delete', @video, :method => :delete, :confirm => "Are you sure ?"%>
