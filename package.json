@@ -6,6 +6,7 @@
     "@hotwired/turbo-rails": "^7.2.4",
     "@popperjs/core": "^2.11.6",
     "@rails/actioncable": "^6.0.0",
+    "@rails/webpacker": "5.4.3",
     "autoprefixer": "^10.4.8",
     "bootstrap": "^5.2.0",
     "css-loader": "^6.7.1",
